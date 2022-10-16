@@ -20,8 +20,8 @@
                 <a class="my-logo" href="https://choodoss.github.io/goit-markup-hw-01/" target="_blank"><span
                         class="logo-blue">Web</span>Studio</a>
                 <ul class="main-nav__list">
-                    <li class="main-nav__item"><a href="#" class="main__title">Студія</a></li>
-                    <li class="main-nav__item"><a href="#" class="main__title">Портфоліо</a></li>
+                    <li class="main-nav__item"><a href="#" class="main__title current">Студія</a></li>
+                    <li class="main-nav__item"><a href="./portfolio.html" class="main__title">Портфоліо</a></li>
                     <li class="main-nav__item"><a href="#" class="main__title">Контакти</a></li>
                 </ul>
                 <ul class="contacts-list">
@@ -37,15 +37,17 @@
     <main>
         <section class="hi-banner">
             <div class="container">
-                <div class="hi-banner__body">
-                    <h1 class="hi-banner__title">Ефективні рішення <br> для вашого бізнесу</h1>
-                    <button type="button" class="hi-banner__button">Замовити послугу</button>
+                <div class="hi-banner__row">
+                    <div class="hi-banner__body">
+                        <h1 class="hi-banner__title">Ефективні рішення для <br> вашого бізнесу</h1>
+                        <button type="button" class="hi-banner__button">Замовити послугу</button>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="to-do">
             <div class="container">
-                <h2 style="visibility: hidden; font-size: 0px;">Комплексний підхід до кожного клієнта</h2>
+                <h2 class="to-do__hiden-title">Комплексний підхід до кожного клієнта</h2>
                 <div class="to-do__row">
                     <div class="to-do__body">
                         <h3 class="to-do__title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -74,7 +76,7 @@
         <section class="work-img">
             <div class="container">
                 <h2 class="work-img__title title">Чим ми займаємося</h2>
-                <ul class="work-img__list">
+                <ul class="work-img-list__row">
                     <li><img class="work-img__img" src="./img/box_1.jpg" width="370" alt="робота за кодом"></li>
                     <li><img class="work-img__img" src="./img/box_2.jpg" width="370"
                             alt="адаптація сторінки для телефонів"></li>
@@ -89,23 +91,31 @@
                 <ul class="team-list__row">
                     <li class="team__body">
                         <img src="./img/Igor_Demyanenko.jpg" width="270" alt="фото Ігоря Дем'яненко">
-                        <h3 class="name-title">Ігор Дем'яненко</h3>
-                        <p lang="en" class="job-title">Product Designer</p>
+                        <div class="team-text">
+                            <h3 class="name-title">Ігор Дем'яненко</h3>
+                            <p lang="en" class="job-title">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team__body">
                         <img src="./img/Olga_Repina.jpg" width="270" alt="фото Ольги Рєпіной">
-                        <h3 class="name-title">Ольга Рєпіна</h3>
-                        <p lang="en" class="job-title">Frontend Developer</p>
+                        <div class="team-text">
+                            <h3 class="name-title">Ольга Рєпіна</h3>
+                            <p lang="en" class="job-title">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team__body">
                         <img src="./img/Mikola_Tarasov.jpg" width="270" alt="фото Миколи Тарасова">
-                        <h3 class="name-title">Микола Тарасов</h3>
-                        <p lang="en" class="job-title">Marketing</p>
+                        <div class="team-text">
+                            <h3 class="name-title">Микола Тарасов</h3>
+                            <p lang="en" class="job-title">Marketing</p>
+                        </div>
                     </li>
                     <li class="team__body">
                         <img src="./img/Mikhailo_Yermakov.jpg" width="270" alt="фото Михайла Єрмакова">
-                        <h3 class="name-title">Михайло Єрмаков</h3>
-                        <p lang="en" class="job-title">UI Designer</p>
+                        <div class="team-text">
+                            <h3 class="name-title">Михайло Єрмаков</h3>
+                            <p lang="en" class="job-title">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -114,7 +124,7 @@
     <footer>
         <div class="container">
             <div class="fotter__body">
-                <a href="https://choodoss.github.io/goit-markup-hw-01/" target="_blank" class="logo"><span
+                <a href="https://choodoss.github.io/goit-markup-hw-01/" target="_blank" class="my-logo"><span
                         class="logo-blue">Web</span><span class="logo-white">Studio</span></a>
                 <address class="address__body">
                     <ul class="address__list">

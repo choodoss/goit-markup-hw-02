@@ -20,14 +20,14 @@
                 <a class="my-logo" href="https://choodoss.github.io/goit-markup-hw-01/" target="_blank"><span
                         class="logo-blue">Web</span>Studio</a>
                 <ul class="main-nav__list">
-                    <li class="main-nav__item"><a href="#" class="main__title">Студія</a></li>
-                    <li class="main-nav__item"><a href="#" class="main__title">Портфоліо</a></li>
+                    <li class="main-nav__item"><a href="./index.html" class="main__title">Студія</a></li>
+                    <li class="main-nav__item"><a href="#" class="main__title current">Портфоліо</a></li>
                     <li class="main-nav__item"><a href="#" class="main__title">Контакти</a></li>
                 </ul>
                 <ul class="contacts-list">
-                    <li class="contacts-nav__item link"><a class="email"
+                    <li class="contacts-nav__item"><a class="email"
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="contacts-nav__item link"><a class="phone" href="tel:+380961111111">+38 096 111 11
+                    <li class="contacts-nav__item"><a class="phone" href="tel:+380961111111">+38 096 111 11
                             11</a>
                     </li>
                 </ul>
@@ -35,76 +35,119 @@
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="navigation">
-                <ul class="navigation-list__row">
-                    <li class="navigation__item"><button type="button" class="navigation__button button">Усі</button>
-                    </li>
-                    <li class="navigation__item"><button type="button"
-                            class="navigation__button button">Веб-сайти</button></li>
-                    <li class="navigation__item"><button type="button"
-                            class="navigation__button button">Додатки</button></li>
-                    <li class="navigation__item"><button type="button" class="navigation__button button">Дизайн</button>
-                    </li>
-                    <li class="navigation__item"><button type="button"
-                            class="navigation__button button">Маркетинг</button></li>
-                </ul>
+        <section class="examples-work__navigation">
+            <div class="container">
+                <div class="navigation">
+                    <ul class="navigation-list__row">
+                        <li class="navigation__item"><button type="button"
+                                class="navigation__button button">Усі</button>
+                        </li>
+                        <li class="navigation__item"><button type="button"
+                                class="navigation__button button">Веб-сайти</button></li>
+                        <li class="navigation__item"><button type="button"
+                                class="navigation__button button">Додатки</button></li>
+                        <li class="navigation__item"><button type="button"
+                                class="navigation__button button">Дизайн</button>
+                        </li>
+                        <li class="navigation__item"><button type="button"
+                                class="navigation__button button">Маркетинг</button></li>
+                    </ul>
+                </div>
+                <div class="examples-work">
+                    <h1 class="examples-work__hidden-title">Приклади робіт</h1>
+                    <ul class="examples-list">
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/tekryak.jpg" width="370" alt="вебсайт технокряк">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Технокряк</h2>
+                                    <p class="example-item__description">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/new_orlean_vs_golden_star.jpg" width="370"
+                                    alt="постер баскетбольного матчу">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Постер New Orlean vs Golden Star</h2>
+                                    <p class="example-item__description">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/seafood_restaurant.jpg" width="370"
+                                    alt="лого рестарану морської їжі">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Ресторан Seafood</h2>
+                                    <p class="example-item__description">Додаток</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/prime_proft.jpg" width="370" alt="навушники">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Проєкт Prime</h2>
+                                    <p class="example-item__description">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/boxes_project.jpg" width="370" alt="2 коробки">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Проєкт Boxes</h2>
+                                    <p class="example-item__description">Додаток</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/inspiration_gus_no_borders.jpg" width="370" alt="вебсайт">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Inspiration has no Borders</h2>
+                                    <p class="example-item__description">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/edition_of_limited_edition.jpg" width="370" alt="книга">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Видання Limited Edition</h2>
+                                    <p class="example-item__description">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/project_lab.jpg" width="370" alt="бірка">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Проєкт LAB</h2>
+                                    <p class="example-item__description">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="example-item">
+                            <a href="example-item__link">
+                                <img src="/img/portfolio/growing_business.jpg" width="370" alt="робота за лептопом">
+                                <div class="example-item__body">
+                                    <h2 class="example-item__title">Growing Business</h2>
+                                    <p class="example-item__description">Додаток</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="examples-work">
-                <ul class="examples-list">
-                    <li class="example-item">
-                        <img src="/img/portfolio/tekryak.jpg" width="370" alt="веб-сайт технокряк">
-                        <h2 class="example-item__title">Технокряк</h2>
-                        <p class="example-item__description">Веб-сайт</p>
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/new_orlean_vs_golden_star.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Постер New Orlean vs Golden Star</h2>
-                        <p class="example-item__description">Дизайн</p>
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/seafood_restaurant.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Ресторан Seafood</h2>
-                        <p class="example-item__description">Додаток</p>
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/prime_proft.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Проєкт Prime</h2>
-                        <p class="example-item__description">Маркетинг</p>
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/boxes_project.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Проєкт Boxes</h2>
-                        <p class="example-item__description">Додаток</p> 
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/inspiration_gus_no_borders.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Inspiration has no Borders</h2>
-                        <p class="example-item__description">Веб-сайт</p>
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/edition_of_limited_edition.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Видання Limited Edition</h2>
-                        <p class="example-item__description">Дизайн</p>
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/project_lab.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Проєкт LAB</h2>
-                        <p class="example-item__description">Маркетинг</p>
-                    </li>
-                    <li class="example-item">
-                        <img src="/img/portfolio/growing_business.jpg" width="370" alt="веб-сайт">
-                        <h2 class="example-item__title">Growing Business</h2>
-                        <p class="example-item__description">Додаток</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="container">
             <div class="fotter__body">
-                <a href="https://choodoss.github.io/goit-markup-hw-01/" target="_blank" class="logo"><span
+                <a href="https://choodoss.github.io/goit-markup-hw-01/" target="_blank" class="my-logo"><span
                         class="logo-blue">Web</span><span class="logo-white">Studio</span></a>
                 <address class="address__body">
                     <ul class="address__list">
