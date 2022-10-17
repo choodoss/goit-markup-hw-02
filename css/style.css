@@ -97,13 +97,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.email:focus,
-.phone:focus,
-.email:hover,
-.phone:hover {
-  color: var(--primary-color-hover);
-}
-
 .hi-banner {
   background: #2F303A;
 }
@@ -365,4 +358,11 @@ footer {
 .example-item__description {
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.email:focus,
+.phone:focus,
+.email:hover,
+.phone:hover {
+  color: var(--primary-color-hover);
 }
