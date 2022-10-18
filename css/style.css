@@ -290,6 +290,15 @@ footer {
   color: #FFFFFF;
 }
 
+.map:focus,
+.map:hover,
+.email:focus,
+.phone:focus,
+.email:hover,
+.phone:hover {
+  color: var(--primary-color-hover);
+}
+
 .examples-work__navigation {
   padding: 94px 0 64px 0;
 }
@@ -358,13 +367,4 @@ footer {
 .example-item__description {
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
-
-.map:focus,
-.map:hover,
-.email:focus,
-.phone:focus,
-.email:hover,
-.phone:hover {
-  color: var(--primary-color-hover);
 }
