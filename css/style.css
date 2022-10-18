@@ -35,6 +35,16 @@ body {
   background: #FFFFFF;
 }
 
+button,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: 0.03em;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -171,7 +181,6 @@ body {
   font-size: inherit;
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-title-color);
   margin: 0 0 10px 0;
@@ -200,7 +209,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
@@ -240,7 +248,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
   margin: 0 0 10px 0;
 }
@@ -279,6 +286,7 @@ footer {
 
 .address__list__item .email,
 .address__list__item .phone {
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -286,7 +294,6 @@ footer {
 
 .map {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #FFFFFF;
 }
 
@@ -326,7 +333,6 @@ footer {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
   background: #F5F4FA;
   border-radius: 4px;
